@@ -1,0 +1,44 @@
+.sidebar-body {
+  background: rgb(24, 29, 39);
+  width: 300px;
+  height: 100vh;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.title {
+  text-align: center;
+}
+
+.li-title:hover {
+  background: white;
+  color: black;
+}
+
+.li-item:hover {
+  background: rgb(255, 255, 255);
+  color: black;
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.footer-text {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
