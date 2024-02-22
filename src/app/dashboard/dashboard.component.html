@@ -8,9 +8,7 @@
                 <li class="">
                     HOME
                     <ol>
-                        <li class="li-item">Convidados</li>
-                        <li class="li-item">Cadastrar</li>
-                        <li class="li-item">Pesquisar</li>
+                        <a href="register" class="li-item">Convidados</a>
                     </ol>
                 </li>
             </ul>
@@ -19,8 +17,16 @@
         <h2 class="footer-text">Sair</h2>
     </div>
 
+
     <div class="content">
-        <div>
+
+
+        <div class="table-content">
+
+            <div class="butto-content">
+                <button class="create-button">Cadastrar</button>
+            </div>
+
             <table>
                 <thead>
                     <tr>
@@ -31,8 +37,8 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>Chris Alberto</td>
+                    <tr *ngFor="let testes of teste ">
+                        <td>{{ testes.name }}</td>
                         <td>945 213 730</td>
                         <td>Masculino</td>
                         <td>Nao</td>
@@ -52,6 +58,7 @@
                 </tbody>
             </table>
         </div>
+
     </div>
 
 </div>

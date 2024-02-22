@@ -1,62 +1,73 @@
+.container {
+  background: #9c9c9c;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerBody {
+  display: flex;
+  justify-content: center;
+}
+
 .card {
-    width: 600px;
-    height: 600px;
-    background-color: #ffffff;
-    color: black;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    font-size: larger;
-    align-items: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 600px;
+  height: 600px;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .cardContainer {
-    justify-content: center;
-    text-align: center;
+  justify-content: center;
+  text-align: center;
 }
 
-
-.cardInfo{
-    margin-top: 20px;
-    margin-bottom: 30px;
-
+.cardInfo {
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .cardForm {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .cardInput {
-    width: 390px;
-    height: 40px;
-    border-radius: 7px;
-    background-color: rgb(252, 252, 252);
-    border: rgba(0, 0, 0, 0.568) solid;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    
+  width: 390px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: rgb(252, 252, 252);
+  border: rgba(0, 0, 0, 0.568) solid;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .button {
-    border-radius: 7px;
-    width: 400px;
-    height: 35px;
-    background-color: #2b50f8;
-    font-size: large;
-    color: #ffffff;
+  border-radius: 7px;
+  width: 400px;
+  height: 35px;
+  background-color: #2b50f8;
+  font-size: large;
+  color: #ffffff;
 }
 
 .button:hover {
-    background-color: #18276a;
+  background-color: #18276a;
 }
 
-label{
-    color: #787777;
-    text-align: left;
+label {
+  color: #787777;
+  text-align: left;
 }
 
-.title{
-margin-bottom: 30px;
+.title {
+  margin-bottom: 30px;
 }
