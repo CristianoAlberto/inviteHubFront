@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { CardLoginComponent } from './card-login/card-login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { RegisterCardComponent } from './register-card/register-card.component';
+import { TableComponent } from './table/table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardLoginComponent,
     DashboardComponent,
-    RegisterCardComponent
+    RegisterCardComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,

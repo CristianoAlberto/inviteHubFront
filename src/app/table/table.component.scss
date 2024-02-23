@@ -1,0 +1,61 @@
+.content{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.table-content {
+    margin-top: 30px;
+margin-left: 200px;
+    color: black;
+  }
+  
+  table {
+    border-collapse: collapse;
+    font-size: 20px;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #0080a4;
+  }
+  
+  tr:hover {
+    background-color: rgb(13, 88, 101);
+    color: white;
+  }
+  
+  .create-button {
+    font-size: large;
+    background: #2d95b2;
+    border-radius: 15px;
+    height: 50px;
+    width: 110px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+   display: flex;
+  }
+  
+  .butto-content {
+    display: flex;
+  
+    justify-content: end;
+  }
+  
+  .create-button:hover {
+    background: #085a70;
+    color: white;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  

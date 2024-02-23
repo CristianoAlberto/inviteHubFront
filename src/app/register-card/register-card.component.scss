@@ -1,16 +1,10 @@
 .container {
   color: black;
   border-radius: 10px;
+  background: red;
   height: 100vh;
-  display: flex;
-  justify-content: center;
   font-size: larger;
-  align-items: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-.content {
-  justify-content: center;
 }
 
 .input-form {
