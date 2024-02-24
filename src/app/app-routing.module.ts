@@ -2,14 +2,15 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { CardLoginComponent } from './card-login/card-login.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import { RegisterCardComponent } from './register-card/register-card.component';
 import { TableComponent } from './table/table.component';
+import { CardRegisterUserComponent } from './card-register-user/card-register-user.component';
 
 const routes: Routes = [
-  { path: 'login', component: CardLoginComponent },
+  { path: '', component: CardLoginComponent },
   { path: 'register', component: RegisterCardComponent },
-  { path: 'table', component: TableComponent }
+  { path: 'table', component: TableComponent },
+  { path: 'register-user', component: CardRegisterUserComponent }
 ];
 
 @NgModule({

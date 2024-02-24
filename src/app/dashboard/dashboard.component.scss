@@ -1,20 +1,16 @@
-.container {
-  display: flex;
-  background: #ffffff;
-  height: 100vh;
-  color: white;
-}
 
 .sidebar-body {
   background: rgb(13, 88, 101);
   width: 300px;
   height: 100vh;
   border-radius: 0px 10px 10px 0px;
+  color: white;
 }
 
 a{
   text-decoration: none;
-  color: black;
+  color: white;
+  margin-left: 40px;
 }
 
 li {
@@ -51,5 +47,16 @@ li {
   bottom: 0;
   margin-bottom: 30px;
   margin-left: 30px;
+}
+
+.footer-text:hover{
+background: white;
+color: black;  
+width: 70px;
+height: 40px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 

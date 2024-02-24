@@ -1,10 +1,13 @@
-.container {
-  color: black;
-  border-radius: 10px;
-  background: red;
-  height: 100vh;
-  font-size: larger;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+.container{
+  display: flex;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  margin-left: 350px;
+  align-items: center;
 }
 
 .input-form {
@@ -43,6 +46,6 @@ label {
   background: #1d6c1d;
 }
 .title {
-  text-align: center;
+text-align: center;
   font-size: 30px;
-}
+  }

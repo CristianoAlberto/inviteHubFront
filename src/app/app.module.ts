@@ -8,6 +8,7 @@ import { CardLoginComponent } from './card-login/card-login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { RegisterCardComponent } from './register-card/register-card.component';
 import { TableComponent } from './table/table.component';
+import { CardRegisterUserComponent } from './card-register-user/card-register-user.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { TableComponent } from './table/table.component';
     CardLoginComponent,
     DashboardComponent,
     RegisterCardComponent,
-    TableComponent
+    TableComponent,
+    CardRegisterUserComponent
   ],
   imports: [
     BrowserModule,
