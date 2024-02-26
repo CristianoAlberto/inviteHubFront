@@ -10,20 +10,24 @@
 
                     <div class="cardForm">
                         <label>Nome</label>
-                        <input class="cardInput" placeholder="Digite o seu nome" type="text">
+                        <input class="cardInput" placeholder="Digite o seu nome" type="text"
+                            [(ngModel)]="formData.name">
 
                         <label>Email</label>
-                        <input class="cardInput" placeholder="Digite o seu email" type="email">
+                        <input class="cardInput" placeholder="Digite o seu email" type="email"
+                            [(ngModel)]="formData.email">
 
                         <label>Telefone</label>
-                        <input class="cardInput" placeholder="Digite o seu número" type="number">
+                        <input class="cardInput" placeholder="Digite o seu número" type="number"
+                            [(ngModel)]="formData.phoneNumber">
 
                         <label>Password</label>
-                        <input class="cardInput" placeholder="Digite a sua senha" type="password">
+                        <input class="cardInput" placeholder="Digite a sua senha" type="password"
+                            [(ngModel)]="formData.password">
                     </div>
 
                     <div class="">
-                        <button class="button">Entrar</button>
+                        <button (click)="register()" class="button">Entrar</button>
                     </div>
                 </div>
 

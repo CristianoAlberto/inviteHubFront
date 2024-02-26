@@ -9,15 +9,18 @@
                 <div class="cardInfo">
 
                     <div class="cardForm">
+
                         <label>Email</label>
-                        <input type="text" placeholder="Digite o seu email" class="cardInput">
+                        <input type="text" placeholder="Digite o seu email" class="cardInput"
+                            [(ngModel)]="formData.email">
 
                         <label>Senha</label>
-                        <input type="text" placeholder="Digite a sua senha" class="cardInput">
+                        <input type="password" placeholder="Digite a sua senha" class="cardInput"
+                            [(ngModel)]="formData.password" required>
                     </div>
 
                     <div class="">
-                        <button class="button">Entrar</button>
+                        <button (click)="login()" class="button">Entrar</button>
                     </div>
                 </div>
 

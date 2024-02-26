@@ -5,9 +5,9 @@
 
 .content{
   display: flex;
-  justify-content: center;
-  margin-left: 350px;
-  align-items: center;
+ 
+ align-items: center; 
+  margin-left: 300px;
 }
 
 .input-form {
@@ -48,4 +48,18 @@ label {
 .title {
 text-align: center;
   font-size: 30px;
+  }
+
+  .button-actulizar {
+    width: 380px;
+    height: 40px;
+    border-radius: 10px;
+    background: #0f1ae9;
+    font-size: large;
+    margin-top: 15px;
+    color: white;
+  }
+
+  .button-actulizar:hover{
+    background: #070d7b;
   }

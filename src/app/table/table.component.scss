@@ -4,7 +4,7 @@
 
 .table-content {
     margin-top: 30px;
-margin-left: 300px;
+margin-left: 200px;
     color: black;
   }
   
@@ -55,5 +55,36 @@ margin-left: 300px;
   a{
     text-decoration: none;
     color: black;
+  }
+
+  .buttonUpdate{
+ 
+    background: orangered;
+    border-radius: 15px;
+    height:40px;
+    width: 80px;
+    margin-bottom: 10px;
+ 
+  }
+
+  
+  .buttonUpdate:hover{
+    background: rgb(112, 31, 1);
+    color: white; 
+  }
+
+
+  .buttonDelete{
+    background: red;
+    border-radius: 15px;
+    height:40px;
+    width: 80px;
+    margin-left: 10px;
+
+  }
+
+  .buttonDelete:hover{
+    background: rgb(160, 3, 3);
+    color: white;
   }
   

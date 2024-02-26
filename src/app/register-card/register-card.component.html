@@ -10,22 +10,26 @@
             <h2 class="title">Registrar convidado</h2>
 
             <label>Nome</label>
-            <input class="input-form" placeholder="Digtite o seu nome" type="text" />
+            <input class="input-form" placeholder="Digtite o seu nome" type="text" [(ngModel)]="formData.name" />
 
             <label>Número</label>
-            <input class="input-form" placeholder="Digtite o seu número" type="text" />
+            <input class="input-form" placeholder="Digtite o seu número" type="text" [(ngModel)]="formData.number" />
 
             <label>Genero</label>
 
             <div>
-                <input type="radio" id="masculino" name="genero" value="m">
+                <input type="radio" id="masculino" name="genero" value="M" [(ngModel)]="formData.gender">
                 <label for="masculino">Masculino</label><br>
-                <input type="radio" id="feminino" name="genero" value="f">
+                <input type="radio" id="feminino" name="genero" value="F" [(ngModel)]="formData.gender">
                 <label for="feminino">Feminino</label><br>
             </div>
 
             <div class="">
-                <button class="button-create">Registrar</button>
+                <button (click)="updateGuest()" *ngIf="button; else elseBlock"
+                    class="button-actulizar">Actualizar</button>
+                <ng-template #elseBlock>
+                    <button (click)="create()" class="button-create">Cadastrar</button>
+                </ng-template>
             </div>
 
         </div>
